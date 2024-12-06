@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #c7222b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .controls {
+    margin-bottom: 2rem;
+  }
+  
+  .controls label {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .controls input[type="range"],
+  .controls textarea,
+  .controls select,
+  .controls input[type="file"] {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  #preview {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 30px; /* Default size */
+    line-height: 1.5; /* Default line height */
+    letter-spacing: 0px; /* Default letter spacing */
+    font-family: Arial, sans-serif; /* Default font */
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+
+    #preview{
+        background-color: black;
+    }
+  }
+ 
+  button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #c7222b;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c7222b;
+  }
+  
